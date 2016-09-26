@@ -1,0 +1,45 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #225378; }
+
+#app {
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  height: 70%;
+  width: 30%;
+  border: 2px solid grey;
+  border-radius: 15px;
+  background-color: #FFFF9D;
+  color: #EB7F00; }
+  #app .header {
+    text-align: center;
+    border-bottom: 2px solid grey;
+    height: 70px;
+    margin-bottom: 15px; }
+  #app .add-todo {
+    position: relative;
+    display: block;
+    width: 100%;
+    top: 70 px;
+    margin: 0; }
+  #app .todo-list {
+    margin: 15px 0;
+    overflow-y: auto;
+    max-height: 490px; }
+    #app .todo-list i {
+      margin-right: 5px;
+      cursor: pointer; }
+  #app .footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%; }
+    #app .footer a {
+      color: #EB7F00; }
+      #app .footer a:hover {
+        color: #225378; }
